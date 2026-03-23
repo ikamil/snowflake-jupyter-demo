@@ -8,7 +8,7 @@ A depersonalized demonstration of data pipeline patterns spanning **Snowflake**,
 
 ```
 ┌─────────────┐     ┌─────────┐     ┌─────────────┐     ┌──────────────┐
-│  Hive/HDFS  │────▶│   S3    │────▶│  Snowflake  │────▶│  Delivery /  │
+│  Hive/HDFS  │───▶│   S3    │────▶│  Snowflake  │────▶│  Delivery /  │
 │  (Parquet)  │ gz  │ Staging │ COPY│  Warehouse  │     │   Reports    │
 └─────────────┘     └─────────┘     └──────┬──────┘     └──────────────┘
        ▲                                   │
