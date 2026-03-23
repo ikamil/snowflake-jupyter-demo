@@ -1,0 +1,9 @@
+snowflake-connector-python
+pandas
+celery
+luigi
+numpy
+python-dateutil
+python-daemon
+scipy
+pyspark
